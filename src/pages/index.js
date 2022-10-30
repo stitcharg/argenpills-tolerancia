@@ -29,7 +29,7 @@ export default (() => {
 		setNumberOfDays(days);
 
 		//reset
-		setToleranciaAlta(false); setToleranciaBaja(false); setToleranciaAlta(false);
+		setToleranciaMedia(false); setToleranciaBaja(false); setToleranciaAlta(false);
 
 		if (days <= TOLERANCIA_ALTA)
 			setToleranciaAlta(true);
