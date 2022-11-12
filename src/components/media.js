@@ -24,7 +24,7 @@ const ToleranciaMedia = ({ days }) => {
                 Tolerancia Media
             </Text>
             <Text as="p" font="--lead" margin="40px 0 20px 0">
-                Entre la ultima toma y la fecha de hoy, pasaron <strong>{days}</strong>. Son <strong>menos de 60 dias</strong>, por lo tanto tu tolerancia se puede considerar media
+                Entre la ultima toma y la fecha de hoy, pasaron <strong>{days}</strong>. Son <strong>menos de 120 dias</strong>, por lo tanto tu tolerancia se puede considerar media
             </Text>
         </Section>
     );
