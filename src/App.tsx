@@ -6,13 +6,14 @@ import { CalculatorComponent } from './components/Calculator'
 import { ExtraInfo } from './components/ExtraInfo'
 import { FooterComponent } from './components/Footer'
 import { HeaderComponent } from './components/Header'
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
 function App() {
 
-	if (import.meta.env.PROD && typeof window !== 'undefined') {
-		ReactGA.initialize('UA-221362845-1');
-		ReactGA.pageview(window.location.pathname + window.location.search);
+	if (import.meta.env.PROD) {
+		ReactGA.initialize('G-47M9J4N9CC');
+		const pageUrl = "/"
+		ReactGA.send({ hitType: "pageview", page: pageUrl });
 	}
 
 	return (
