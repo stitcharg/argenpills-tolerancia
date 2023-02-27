@@ -10,11 +10,9 @@ import ReactGA from "react-ga4";
 
 function App() {
 
-	if (import.meta.env.PROD) {
-		ReactGA.initialize('G-47M9J4N9CC');
-		const pageUrl = "/"
-		ReactGA.send({ hitType: "pageview", page: pageUrl });
-	}
+	ReactGA.initialize('G-47M9J4N9CC');
+	const pageUrl = "/"
+	ReactGA.send({ hitType: "pageview", page: pageUrl });
 
 	return (
 		<div className="App">
