@@ -9,9 +9,10 @@ export const ExtraInfo = () => {
 				</Box>
 				<Box>
 					<Text>
-						El tiempo minimo entre tomas de MDMA debe ser 30 dias. Menos de esto, es muy perjudicial para tu salud, dado que la serotonina recien empieza a generarse nuevamente en el cerebro a los 20 dias de la toma. <br />
-						Lo ideal es dejar +90 dias entre tomas. Mientras menos tomes, mejor te va a pegar.<br />
-						Te invitamos a leer nuestro hilo en el foro dedicado a la tolerancia: <a href="https://argenpills.org/showthread.php?tid=2468">Que es la tolerancia?</a>
+						El tiempo m&iacute;nimo entre tomas de MDMA debe ser 30 dias. Menos de esto, es muy perjudicial para tu salud, dado que la serotonina reci&eacute;n empieza a generarse nuevamente en el cerebro a los 20 dias de la toma. <br />
+						Lo ideal es dejar <strong>+90 dias</strong> entre tomas. Mientras menos tomes, mejor te va a pegar.<br />
+						Te invitamos a visitar nuestro sitio con la explicaci&oacute;n de <a href="https://descansos.argenpills.info">porque es importante descansar 30 dias (o mas) entre tomas de &eacute;xtasis</a>
+						y tambi&eacute;n leer nuestro hilo en el foro dedicado a la tolerancia: <a href="https://argenpills.org/showthread.php?tid=2468">Que es la tolerancia?</a>.
 					</Text>
 				</Box>
 			</HStack>
