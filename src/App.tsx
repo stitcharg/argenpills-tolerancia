@@ -10,12 +10,12 @@ import { clarity } from 'react-microsoft-clarity';
 
 function App() {
 
-	//if (import.meta.env.PROD)
-	useEffect(() => {
-		clarity.init(
-			import.meta.env.VITE_CLARITY_ID
-		);
-	}, []);
+	if (!import.meta.env.DEV)
+		useEffect(() => {
+			clarity.init(
+				import.meta.env.VITE_CLARITY_ID
+			);
+		}, []);
 
 	return (
 		<div className="App">
